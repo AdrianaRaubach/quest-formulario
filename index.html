@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest-JavaScript</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="duvidas">
+            <h2 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h2>
+            <p class="informativo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+        <form class="formulario">
+            <div>
+                <input class="formulario-padrao , item-1" type="text" name="nome" placeholder="Nome completo *">
+                <p class="display-1">campo obrigatorio</p>
+            </div>
+            <div>
+                <input class="formulario-padrao , item-2" type="email" name="email" placeholder="Email *">
+                <p class="display-2">campo obrigatorio</p>
+            </div>
+            <div>
+                <input class="formulario-padrao , item-3" type="number" name="telefone" placeholder="Telefone *">
+                <p class="display-3">campo obrigatorio</p>
+            </div>
+            <div>
+                <textarea class="formulario-padrao , item-4" id="mensagem" name="mensagem" cols="20" rows="5"
+                    placeholder="Mensagem *"></textarea>
+                <p class="display-4">campo obrigatorio</p>
+            </div>
+            <p class="observacao">*campos obrigatórios</p>
+            <a href="#" class="enviar" onclick="campoEstaPreenchido()">Enviar</a>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

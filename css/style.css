@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+body{
+    font-family: 'Roboto' , 'sans-serif';
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+.duvidas{
+    color: #ffffff;
+    max-width: 300px;
+}
+.duvidas h2{
+    font-size: 20px;
+}
+.duvidas p{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.formulario div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 340px;
+    min-height: 380px;
+    max-height: 400px;
+}
+.formulario .formulario-padrao , .formulario .mensagem{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: 'Roboto' , 'sans-serif';
+    margin-bottom: 15px;
+}
+.formulario #mensagem{
+    min-width: 200px;
+    max-width: 300px;
+    height: 100px;
+    resize: none;
+}
+.formulario .enviar{
+    background-color: #3CCC87;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.formulario .observacao{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.display-1 , .display-2 , .display-3 , .display-4{
+    display:none;
+}
+
+/*classes se erro*/
+.alerta{
+    font-size: 10px;
+    font-weight: 400;
+    color: #ff0000;
+    display: block;
+    padding: 0;
+    margin-bottom: 7px;
+}
+.formulario-erro{
+    margin-bottom: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    font-family: 'Roboto' , 'sans-serif';
+}
+
+/*clases se correto*/
+.formulario-correto{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #00C22B;
+    font-family: 'Roboto' , 'sans-serif';
+    margin-bottom: 15px;
+}
